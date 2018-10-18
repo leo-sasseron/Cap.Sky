@@ -68,11 +68,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4435528394623468}
-  - component: {fileID: 114947272697984268}
-  - component: {fileID: 114762853240608502}
-  - component: {fileID: 114738584713986198}
-  - component: {fileID: 114436928939867552}
-  - component: {fileID: 114028194028620406}
+  - component: {fileID: 114862100355149758}
+  - component: {fileID: 114672588633764202}
+  - component: {fileID: 114048410802584842}
+  - component: {fileID: 114122186127048936}
+  - component: {fileID: 114427923602609438}
   m_Layer: 0
   m_Name: FollowPath
   m_TagString: Untagged
@@ -366,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1976608202397478
 GameObject:
   m_ObjectHideFlags: 1
@@ -834,29 +834,66 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114028194028620406
+--- !u!114 &114048410802584842
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137605225839398}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1528663654, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 2053941421, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
-  _version: 1.0
+  _version: 1.1.2
   _moved: 0
-  _blocks:
-  - {fileID: 114436928939867552}
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114122186127048936}
   editor: {fileID: 0}
-  _showSettings: 0
-  _displayMode: 0
-  _windowTitle: GameFlow
-  _windowMinSize: {x: 240, y: 64}
-  _windowMaxSize: {x: 600, y: 400}
+  _caption: Follow Path
+  _breakpoint: 0
+  _duration: 1
+  _durationVar: {fileID: 0}
+  _path: {fileID: 114779976871474366}
+  _pathVar: {fileID: 0}
+  _follower: {fileID: 4094606635040982}
+  _followerVar: {fileID: 0}
+  _direction: 0
+  _directionVar: {fileID: 0}
+  _interpolation: 7
+  _interpolationVar: {fileID: 0}
+  _mode: 1
+  _modeVar: {fileID: 0}
+  _velocity: 600
+  _velocityVar: {fileID: 0}
+--- !u!114 &114122186127048936
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137605225839398}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -686213845, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1.2
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114862100355149758}
+  editor: {fileID: 0}
+  _caption: Loop
+  _breakpoint: 0
+  _actions:
+  - {fileID: 114048410802584842}
 --- !u!114 &114192699994998158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -891,35 +928,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c163cac1a24d01e49ac13504c7c11798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114436928939867552
+--- !u!114 &114427923602609438
 MonoBehaviour:
-  m_ObjectHideFlags: 3
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1137605225839398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 1528663654, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
-  _version: 1.0
-  _moved: 1
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114028194028620406}
+  _version: 1.1.2
+  _moved: 0
+  _blocks:
+  - {fileID: 114862100355149758}
   editor: {fileID: 0}
-  _id: Move along path
-  _actions:
-  - {fileID: 114947272697984268}
-  - {fileID: 114738584713986198}
-  _parameters: []
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
+  _showSettings: 0
+  _displayMode: 0
+  _windowTitle: GameFlow
+  _windowMinSize: {x: 240, y: 64}
+  _windowMaxSize: {x: 600, y: 400}
 --- !u!114 &114610267175935422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -934,6 +965,35 @@ MonoBehaviour:
   health: 450
   vidaAtual: 0
   debug: 1
+--- !u!114 &114672588633764202
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1137605225839398}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1990826541, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1.2
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114862100355149758}
+  editor: {fileID: 0}
+  _caption: Random Wait
+  _breakpoint: 0
+  _duration: 0
+  _durationVar: {fileID: 0}
+  _output: {fileID: 0}
+  _min: 0.1
+  _minVar: {fileID: 0}
+  _max: 15.1
+  _maxVar: {fileID: 0}
 --- !u!114 &114687553069883728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -950,7 +1010,7 @@ MonoBehaviour:
   fAddY: 90
   fAddZ: 90
   random: 0.2
-  velocidade: 9000
+  velocidade: 15000
   seguindo: 1
   showGizmos: 0
   "come\xE7oDistanciaRay": 500
@@ -981,30 +1041,6 @@ MonoBehaviour:
   Desliga1: {fileID: 1137605225839398}
   Desliga2: {fileID: 1656708031580440}
   liga: {fileID: 1901029819379304}
---- !u!114 &114738584713986198
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137605225839398}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -686213845, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1.2
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114436928939867552}
-  editor: {fileID: 0}
-  _caption: nave segue um caminho
-  _breakpoint: 0
-  _actions:
-  - {fileID: 114762853240608502}
 --- !u!114 &114741824188573580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1026,42 +1062,6 @@ MonoBehaviour:
     m_Bits: 819
   tirosMaximos: 30
   tirosRestantes: 80
---- !u!114 &114762853240608502
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1137605225839398}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2053941421, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1.2
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114738584713986198}
-  editor: {fileID: 0}
-  _caption: Follow Path
-  _breakpoint: 0
-  _duration: 1
-  _durationVar: {fileID: 0}
-  _path: {fileID: 114779976871474366}
-  _pathVar: {fileID: 0}
-  _follower: {fileID: 4094606635040982}
-  _followerVar: {fileID: 0}
-  _direction: 0
-  _directionVar: {fileID: 0}
-  _interpolation: -5
-  _interpolationVar: {fileID: 0}
-  _mode: 1
-  _modeVar: {fileID: 0}
-  _velocity: 600
-  _velocityVar: {fileID: 0}
 --- !u!114 &114779976871474366
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   _showLabels: 1
   _settingsFoldout: 1
   _pointsFoldout: 1
---- !u!114 &114947272697984268
+--- !u!114 &114862100355149758
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1134,27 +1134,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137605225839398}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1990826541, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
   _version: 1.1.2
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114436928939867552}
+  container: {fileID: 114427923602609438}
   editor: {fileID: 0}
-  _caption: Random Wait
-  _breakpoint: 0
-  _duration: 0
-  _durationVar: {fileID: 0}
-  _output: {fileID: 0}
-  _min: 0.1
-  _minVar: {fileID: 0}
-  _max: 15.1
-  _maxVar: {fileID: 0}
+  _id: On Start
+  _actions:
+  - {fileID: 114672588633764202}
+  - {fileID: 114122186127048936}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!135 &135003524262426440
 SphereCollider:
   m_ObjectHideFlags: 1

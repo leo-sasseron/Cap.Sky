@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour {
 
-    public Slider Vida, AmmoAmount, BotHitted;
+    public Slider Vida, AmmoAmount;
 
     
     

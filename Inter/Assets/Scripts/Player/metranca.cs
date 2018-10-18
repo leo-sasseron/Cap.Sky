@@ -6,12 +6,11 @@ public class metranca : MonoBehaviour
 {
     public LayerMask layermask;
 
-    public bool mostraNoInspector;
-
-    [HideInInspector]
-    public GameObject BotHitted;
    
-    [HideInInspector]
+
+    
+   
+   
     private AudioSource audioMetralha;
     public AudioClip tiros, reloadAudio;
     bool atirando;
@@ -39,8 +38,56 @@ public class metranca : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(atirando);
+      
+            if (Input.GetKey(KeyCode.Space))
+            {
+                tiro();
+
+
+            }
         
+        
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+           
+
+            atirando = true;
+            audioMetralha.clip = tiros;
+            audioMetralha.loop = true;
+            audioMetralha.Play();
+
+
+
+
+
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+
+
+
+            audioMetralha.Pause();
+            atirando = false;
+
+        }
+
+        if (atirando == true && recarrega == false)
+        {
+
+            
+
+
+        }
+
+
+
+
+
+
 
         if (timerCooldown > 0)
         {
@@ -63,110 +110,75 @@ public class metranca : MonoBehaviour
            
            
         }
-        if (timerReload == 0)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-
-                
-                audioMetralha.clip = tiros;
-                audioMetralha.loop = true;
-                audioMetralha.Play();
-                atirando = true;
-
-
-               
-
-            }
-        }
-        if (Input.GetKeyUp(KeyCode.Space)) {
-
-            
-
-            audioMetralha.Pause();
-            atirando = false;
-
-        }
-
-        if (atirando && recarrega == false)
-         {
+       
+        
            
-        tiro();
-           
-            
-        }
 
         
     }
 
-    
 
-    void tiro()
-    {
 
-        
+     void tiro()
+     {
+
 
         RaycastHit shot;
+
         if (timerCooldown <= 0 && tirosRestantes > 0)
-        {
+         {
+            tirosRestantes--;
+            timerCooldown = maxTempoCooldown;
 
-          
+
+            Physics.Raycast(firePoint.transform.position, -firePoint.transform.forward,  out shot, range, layermask);
+        print(shot.collider.gameObject.name);
 
 
-            Physics.Raycast(firePoint.transform.position, firePoint.transform.forward * -range, out shot, layermask);
             //print(shot.collider.name);
 
-            print(shot.collider.name);
-            tirosRestantes--;
+            
+            
 
             VidaBot bot = shot.transform.GetComponent<VidaBot>();
 
-           
-
-
-            if (shot.collider != null)
-            {
-
-
-                Debug.Log(shot.collider.name);
 
 
 
-                if (bot != null)
-                {
+            // if (shot.collider != null)
+            // {
+                 if (bot != null)
+                 {
 
-
-                  
-                    bot.takeDamage(damage);
-
+                     bot.takeDamage(damage);
                 }
+             }
 
-            }
 
 
-            
-        }
+         }
 
-        timerCooldown = maxTempoCooldown;
+
+        
+    
+
+     void reload()
+     {
+
+         timerReload += Time.deltaTime;
+
+         if (timerReload >= maxTimerReload)
+         {
+             recarrega = false;
+             tirosRestantes = tirosMaximos;
+             timerReload = 0;
+
+             audioMetralha.clip = null;
+         }
+
 
     }
-
-    void reload()
-    {
-
-        timerReload += Time.deltaTime;
-
-        if (timerReload >= maxTimerReload)
-        {
-            recarrega = false;
-            tirosRestantes = tirosMaximos;
-            timerReload = 0;
-            
-            audioMetralha.clip = null;
-        }
-
-
-    }
+    
 
     private void OnDrawGizmos()
     {
