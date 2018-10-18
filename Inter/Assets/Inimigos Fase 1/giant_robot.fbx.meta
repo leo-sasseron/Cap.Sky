@@ -1,0 +1,1279 @@
+fileFormatVersion: 2
+guid: 62103be1bf94d8745b7ed00a6c698292
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: robot_0005:Body_Ctrl
+    100004: robot_0005:head
+    100006: robot_0005:Head_CTRL
+    100008: robot_0005:joints1
+    100010: robot_0005:L_ankle
+    100012: robot_0005:L_clavique
+    100014: robot_0005:L_elbow
+    100016: robot_0005:L_hand
+    100018: robot_0005:L_Knee
+    100020: robot_0005:L_shoulder
+    100022: robot_0005:L_Waist
+    100024: robot_0005:nucleo
+    100026: robot_0005:polySurface234
+    100028: robot_0005:polySurface238
+    100030: robot_0005:polySurface245
+    100032: robot_0005:polySurface246
+    100034: robot_0005:polySurface250
+    100036: robot_0005:polySurface255
+    100038: robot_0005:polySurface256
+    100040: robot_0005:polySurface261
+    100042: robot_0005:polySurface263
+    100044: robot_0005:polySurface266
+    100046: robot_0005:polySurface267
+    100048: robot_0005:polySurface268
+    100050: robot_0005:polySurface269
+    100052: robot_0005:polySurface270
+    100054: robot_0005:polySurface271
+    100056: robot_0005:polySurface272
+    100058: robot_0005:polySurface273
+    100060: robot_0005:polySurface274
+    100062: robot_0005:polySurface275
+    100064: robot_0005:polySurface276
+    100066: robot_0005:polySurface277
+    100068: robot_0005:polySurface278
+    100070: robot_0005:polySurface279
+    100072: robot_0005:polySurface280
+    100074: robot_0005:polySurface281
+    100076: robot_0005:polySurface282
+    100078: robot_0005:polySurface283
+    100080: robot_0005:polySurface284
+    100082: robot_0005:polySurface285
+    100084: robot_0005:polySurface286
+    100086: robot_0005:polySurface287
+    100088: robot_0005:polySurface287 1
+    100090: robot_0005:polySurface288
+    100092: robot_0005:polySurface289
+    100094: robot_0005:polySurface290
+    100096: robot_0005:polySurface291
+    100098: robot_0005:polySurface292
+    100100: robot_0005:polySurface293
+    100102: robot_0005:polySurface294
+    100104: robot_0005:polySurface295
+    100106: robot_0005:polySurface296
+    100108: robot_0005:polySurface297
+    100110: robot_0005:polySurface298
+    100112: robot_0005:polySurface299
+    100114: robot_0005:polySurface300
+    100116: robot_0005:polySurface301
+    100118: robot_0005:polySurface302
+    100120: robot_0005:polySurface303
+    100122: robot_0005:polySurface304
+    100124: robot_0005:polySurface305
+    100126: robot_0005:polySurface306
+    100128: robot_0005:polySurface306 1
+    100130: robot_0005:polySurface307
+    100132: robot_0005:polySurface308
+    100134: robot_0005:polySurface309
+    100136: robot_0005:polySurface310
+    100138: robot_0005:polySurface311
+    100140: robot_0005:polySurface312
+    100142: robot_0005:polySurface313
+    100144: robot_0005:polySurface314
+    100146: robot_0005:polySurface315
+    100148: robot_0005:polySurface316
+    100150: robot_0005:polySurface316 1
+    100152: robot_0005:R_ankle
+    100154: robot_0005:R_clavique
+    100156: robot_0005:R_elbow
+    100158: robot_0005:R_hand
+    100160: robot_0005:R_Knee
+    100162: robot_0005:R_shoulder
+    100164: robot_0005:R_Waist
+    100166: robot_0005:Root
+    100168: robot_0005:Root_Ctrl
+    100170: robot_0005:spine
+    100172: robot_0005:transform100
+    100174: robot_0005:transform101
+    100176: robot_0005:transform102
+    100178: robot_0005:transform103
+    100180: robot_0005:transform104
+    100182: robot_0005:transform105
+    100184: robot_0005:transform106
+    100186: robot_0005:transform107
+    100188: robot_0005:transform108
+    100190: robot_0005:transform109
+    100192: robot_0005:transform110
+    100194: robot_0005:transform111
+    100196: robot_0005:transform112
+    100198: robot_0005:transform58
+    100200: robot_0005:transform59
+    100202: robot_0005:transform60
+    100204: robot_0005:transform61
+    100206: robot_0005:transform62
+    100208: robot_0005:transform63
+    100210: robot_0005:transform64
+    100212: robot_0005:transform65
+    100214: robot_0005:transform66
+    100216: robot_0005:transform67
+    100218: robot_0005:transform68
+    100220: robot_0005:transform69
+    100222: robot_0005:transform70
+    100224: robot_0005:transform71
+    100226: robot_0005:transform72
+    100228: robot_0005:transform73
+    100230: robot_0005:transform74
+    100232: robot_0005:transform75
+    100234: robot_0005:transform76
+    100236: robot_0005:transform77
+    100238: robot_0005:transform78
+    100240: robot_0005:transform79
+    100242: robot_0005:transform80
+    100244: robot_0005:transform81
+    100246: robot_0005:transform82
+    100248: robot_0005:transform83
+    100250: robot_0005:transform84
+    100252: robot_0005:transform85
+    100254: robot_0005:transform86
+    100256: robot_0005:transform87
+    100258: robot_0005:transform88
+    100260: robot_0005:transform89
+    100262: robot_0005:transform90
+    100264: robot_0005:transform91
+    100266: robot_0005:transform92
+    100268: robot_0005:transform93
+    100270: robot_0005:transform94
+    100272: robot_0005:transform95
+    100274: robot_0005:transform96
+    100276: robot_0005:transform97
+    100278: robot_0005:transform98
+    100280: robot_0005:transform99
+    400000: //RootNode
+    400002: robot_0005:Body_Ctrl
+    400004: robot_0005:head
+    400006: robot_0005:Head_CTRL
+    400008: robot_0005:joints1
+    400010: robot_0005:L_ankle
+    400012: robot_0005:L_clavique
+    400014: robot_0005:L_elbow
+    400016: robot_0005:L_hand
+    400018: robot_0005:L_Knee
+    400020: robot_0005:L_shoulder
+    400022: robot_0005:L_Waist
+    400024: robot_0005:nucleo
+    400026: robot_0005:polySurface234
+    400028: robot_0005:polySurface238
+    400030: robot_0005:polySurface245
+    400032: robot_0005:polySurface246
+    400034: robot_0005:polySurface250
+    400036: robot_0005:polySurface255
+    400038: robot_0005:polySurface256
+    400040: robot_0005:polySurface261
+    400042: robot_0005:polySurface263
+    400044: robot_0005:polySurface266
+    400046: robot_0005:polySurface267
+    400048: robot_0005:polySurface268
+    400050: robot_0005:polySurface269
+    400052: robot_0005:polySurface270
+    400054: robot_0005:polySurface271
+    400056: robot_0005:polySurface272
+    400058: robot_0005:polySurface273
+    400060: robot_0005:polySurface274
+    400062: robot_0005:polySurface275
+    400064: robot_0005:polySurface276
+    400066: robot_0005:polySurface277
+    400068: robot_0005:polySurface278
+    400070: robot_0005:polySurface279
+    400072: robot_0005:polySurface280
+    400074: robot_0005:polySurface281
+    400076: robot_0005:polySurface282
+    400078: robot_0005:polySurface283
+    400080: robot_0005:polySurface284
+    400082: robot_0005:polySurface285
+    400084: robot_0005:polySurface286
+    400086: robot_0005:polySurface287
+    400088: robot_0005:polySurface287 1
+    400090: robot_0005:polySurface288
+    400092: robot_0005:polySurface289
+    400094: robot_0005:polySurface290
+    400096: robot_0005:polySurface291
+    400098: robot_0005:polySurface292
+    400100: robot_0005:polySurface293
+    400102: robot_0005:polySurface294
+    400104: robot_0005:polySurface295
+    400106: robot_0005:polySurface296
+    400108: robot_0005:polySurface297
+    400110: robot_0005:polySurface298
+    400112: robot_0005:polySurface299
+    400114: robot_0005:polySurface300
+    400116: robot_0005:polySurface301
+    400118: robot_0005:polySurface302
+    400120: robot_0005:polySurface303
+    400122: robot_0005:polySurface304
+    400124: robot_0005:polySurface305
+    400126: robot_0005:polySurface306
+    400128: robot_0005:polySurface306 1
+    400130: robot_0005:polySurface307
+    400132: robot_0005:polySurface308
+    400134: robot_0005:polySurface309
+    400136: robot_0005:polySurface310
+    400138: robot_0005:polySurface311
+    400140: robot_0005:polySurface312
+    400142: robot_0005:polySurface313
+    400144: robot_0005:polySurface314
+    400146: robot_0005:polySurface315
+    400148: robot_0005:polySurface316
+    400150: robot_0005:polySurface316 1
+    400152: robot_0005:R_ankle
+    400154: robot_0005:R_clavique
+    400156: robot_0005:R_elbow
+    400158: robot_0005:R_hand
+    400160: robot_0005:R_Knee
+    400162: robot_0005:R_shoulder
+    400164: robot_0005:R_Waist
+    400166: robot_0005:Root
+    400168: robot_0005:Root_Ctrl
+    400170: robot_0005:spine
+    400172: robot_0005:transform100
+    400174: robot_0005:transform101
+    400176: robot_0005:transform102
+    400178: robot_0005:transform103
+    400180: robot_0005:transform104
+    400182: robot_0005:transform105
+    400184: robot_0005:transform106
+    400186: robot_0005:transform107
+    400188: robot_0005:transform108
+    400190: robot_0005:transform109
+    400192: robot_0005:transform110
+    400194: robot_0005:transform111
+    400196: robot_0005:transform112
+    400198: robot_0005:transform58
+    400200: robot_0005:transform59
+    400202: robot_0005:transform60
+    400204: robot_0005:transform61
+    400206: robot_0005:transform62
+    400208: robot_0005:transform63
+    400210: robot_0005:transform64
+    400212: robot_0005:transform65
+    400214: robot_0005:transform66
+    400216: robot_0005:transform67
+    400218: robot_0005:transform68
+    400220: robot_0005:transform69
+    400222: robot_0005:transform70
+    400224: robot_0005:transform71
+    400226: robot_0005:transform72
+    400228: robot_0005:transform73
+    400230: robot_0005:transform74
+    400232: robot_0005:transform75
+    400234: robot_0005:transform76
+    400236: robot_0005:transform77
+    400238: robot_0005:transform78
+    400240: robot_0005:transform79
+    400242: robot_0005:transform80
+    400244: robot_0005:transform81
+    400246: robot_0005:transform82
+    400248: robot_0005:transform83
+    400250: robot_0005:transform84
+    400252: robot_0005:transform85
+    400254: robot_0005:transform86
+    400256: robot_0005:transform87
+    400258: robot_0005:transform88
+    400260: robot_0005:transform89
+    400262: robot_0005:transform90
+    400264: robot_0005:transform91
+    400266: robot_0005:transform92
+    400268: robot_0005:transform93
+    400270: robot_0005:transform94
+    400272: robot_0005:transform95
+    400274: robot_0005:transform96
+    400276: robot_0005:transform97
+    400278: robot_0005:transform98
+    400280: robot_0005:transform99
+    2100000: lambert1
+    4300000: robot_0005:polySurface312
+    4300002: robot_0005:polySurface313
+    4300004: robot_0005:polySurface316
+    4300006: robot_0005:polySurface306
+    7400000: Walk
+    7400002: Hit
+    9500000: //RootNode
+    13700000: robot_0005:polySurface306
+    13700002: robot_0005:polySurface312
+    13700004: robot_0005:polySurface313
+    13700006: robot_0005:polySurface316
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 200.3
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 2.0307
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: robot_0005:Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_Waist
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_Waist
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_Knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_Knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_clavique
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_clavique
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:L_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: robot_0005:R_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: giant_robot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:nucleo
+      parentName: giant_robot(Clone)
+      position: {x: -4.2928076, y: 209.01945, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 7.889384, y: 7.889384, z: 7.889384}
+    - name: robot_0005:transform79
+      parentName: robot_0005:nucleo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface234
+      parentName: giant_robot(Clone)
+      position: {x: -0.32395113, y: 140.6576, z: -1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface238
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: -140.6576, z: 1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface286
+      parentName: robot_0005:polySurface238
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform83
+      parentName: robot_0005:polySurface286
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface287 1
+      parentName: robot_0005:polySurface238
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform84
+      parentName: robot_0005:polySurface287 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface246
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: -140.6576, z: 1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface284
+      parentName: robot_0005:polySurface246
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform62
+      parentName: robot_0005:polySurface284
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface285
+      parentName: robot_0005:polySurface246
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform63
+      parentName: robot_0005:polySurface285
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface250
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: 13.696745, z: -3.9663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform64
+      parentName: robot_0005:polySurface250
+      position: {x: -0, y: -154.35434, z: 5.6716294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface255
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: -140.6576, z: 1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform60
+      parentName: robot_0005:polySurface255
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface261
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: -140.6576, z: 1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform61
+      parentName: robot_0005:polySurface261
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface263
+      parentName: robot_0005:polySurface234
+      position: {x: 0.32395113, y: -140.6576, z: 1.7053206}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform68
+      parentName: robot_0005:polySurface263
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface245
+      parentName: giant_robot(Clone)
+      position: {x: -0.5128651, y: 219.69107, z: -4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface266
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform65
+      parentName: robot_0005:polySurface266
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface267
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform66
+      parentName: robot_0005:polySurface267
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface268
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform67
+      parentName: robot_0005:polySurface268
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface269
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform69
+      parentName: robot_0005:polySurface269
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface270
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform70
+      parentName: robot_0005:polySurface270
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface271
+      parentName: robot_0005:polySurface245
+      position: {x: 0.5128651, y: -219.69107, z: 4.783099}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform72
+      parentName: robot_0005:polySurface271
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface256
+      parentName: giant_robot(Clone)
+      position: {x: -0, y: 168.67601, z: -3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface272
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform73
+      parentName: robot_0005:polySurface272
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface273
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform74
+      parentName: robot_0005:polySurface273
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface274
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform75
+      parentName: robot_0005:polySurface274
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface275
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform76
+      parentName: robot_0005:polySurface275
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface276
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform77
+      parentName: robot_0005:polySurface276
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface277
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform78
+      parentName: robot_0005:polySurface277
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface278
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform80
+      parentName: robot_0005:polySurface278
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface279
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform81
+      parentName: robot_0005:polySurface279
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface280
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform82
+      parentName: robot_0005:polySurface280
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface281
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform58
+      parentName: robot_0005:polySurface281
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface282
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform59
+      parentName: robot_0005:polySurface282
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface283
+      parentName: robot_0005:polySurface256
+      position: {x: -0, y: -168.67601, z: 3.4750502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform71
+      parentName: robot_0005:polySurface283
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface287
+      parentName: giant_robot(Clone)
+      position: {x: -0, y: 144.95015, z: -0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface288
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform89
+      parentName: robot_0005:polySurface288
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface289
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform90
+      parentName: robot_0005:polySurface289
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface290
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform86
+      parentName: robot_0005:polySurface290
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface291
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform87
+      parentName: robot_0005:polySurface291
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface292
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform88
+      parentName: robot_0005:polySurface292
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface293
+      parentName: robot_0005:polySurface287
+      position: {x: -0.5346708, y: 64.0693, z: 3.1247587}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform91
+      parentName: robot_0005:polySurface293
+      position: {x: 0.5346708, y: -209.01945, z: -2.7480326}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface294
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform92
+      parentName: robot_0005:polySurface294
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface295
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform95
+      parentName: robot_0005:polySurface295
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface296
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform96
+      parentName: robot_0005:polySurface296
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface297
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform97
+      parentName: robot_0005:polySurface297
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface298
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform93
+      parentName: robot_0005:polySurface298
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface299
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform94
+      parentName: robot_0005:polySurface299
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface300
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform109
+      parentName: robot_0005:polySurface300
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface301
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform99
+      parentName: robot_0005:polySurface301
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface302
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform110
+      parentName: robot_0005:polySurface302
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface303
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform108
+      parentName: robot_0005:polySurface303
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface304
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform98
+      parentName: robot_0005:polySurface304
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface305
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform111
+      parentName: robot_0005:polySurface305
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface306 1
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform112
+      parentName: robot_0005:polySurface306 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface307
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform102
+      parentName: robot_0005:polySurface307
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface308
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform100
+      parentName: robot_0005:polySurface308
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface309
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform101
+      parentName: robot_0005:polySurface309
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface310
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform103
+      parentName: robot_0005:polySurface310
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface311
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform104
+      parentName: robot_0005:polySurface311
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface312
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface313
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface314
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform105
+      parentName: robot_0005:polySurface314
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface315
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform106
+      parentName: robot_0005:polySurface315
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface316 1
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform107
+      parentName: robot_0005:polySurface316 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:transform85
+      parentName: robot_0005:polySurface287
+      position: {x: -0, y: -144.95015, z: 0.3767261}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface306
+      parentName: giant_robot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:polySurface316
+      parentName: giant_robot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:Root_Ctrl
+      parentName: giant_robot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 42.166576, y: 42.166576, z: 42.166576}
+    - name: robot_0005:Body_Ctrl
+      parentName: robot_0005:Root_Ctrl
+      position: {x: -0, y: 3.8045604, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:Head_CTRL
+      parentName: robot_0005:Body_Ctrl
+      position: {x: 0.0067446493, y: 2.4454546, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:joints1
+      parentName: robot_0005:Body_Ctrl
+      position: {x: 0.015320696, y: -3.8045604, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.023715466, y: 0.023715466, z: 0.023715466}
+    - name: robot_0005:Root
+      parentName: robot_0005:joints1
+      position: {x: -0.72985375, y: 160.89781, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:spine
+      parentName: robot_0005:Root
+      position: {x: -70.57296, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7109273, w: 0.7032655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_clavique
+      parentName: robot_0005:spine
+      position: {x: -31.63002, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0.005417677, w: 0.99998534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_shoulder
+      parentName: robot_0005:L_clavique
+      position: {x: -16.019915, y: -1.8836666, z: -3.7060657}
+      rotation: {x: 0.70621467, y: 0.0030891963, z: 0.0030814682, w: 0.70798427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_elbow
+      parentName: robot_0005:L_shoulder
+      position: {x: -50.83038, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0012512516, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_hand
+      parentName: robot_0005:L_elbow
+      position: {x: -49.526512, y: 0, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_clavique
+      parentName: robot_0005:spine
+      position: {x: 31.622602, y: -0.6852747, z: 0}
+      rotation: {x: 0.99998534, y: -0.0054176752, z: -8.483218e-10, w: -4.595938e-12}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_shoulder
+      parentName: robot_0005:R_clavique
+      position: {x: 16.019989, y: 1.8844895, z: 3.706068}
+      rotation: {x: 0.7071115, y: 0.0030931183, z: 0.0030776241, w: 0.70708865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_elbow
+      parentName: robot_0005:R_shoulder
+      position: {x: 50.82959, y: -0.0000019200202, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0012512516, w: 0.9999992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_hand
+      parentName: robot_0005:R_elbow
+      position: {x: 49.52654, y: 0, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:head
+      parentName: robot_0005:spine
+      position: {x: -0.09134509, y: 16.493315, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_Waist
+      parentName: robot_0005:Root
+      position: {x: 6.0245204, y: -23.237438, z: 0}
+      rotation: {x: 0.000051243172, y: -0.002743331, z: 0.9999932, w: 0.0024696966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_Knee
+      parentName: robot_0005:L_Waist
+      position: {x: -60.67553, y: 0, z: 0}
+      rotation: {x: -0.000000001301441, y: 0.00009560655, z: -0.0000005875047, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:L_ankle
+      parentName: robot_0005:L_Knee
+      position: {x: -84.91494, y: -0.08325957, z: -13.3494}
+      rotation: {x: 0.5001551, y: 0.5025812, z: -0.49736762, w: 0.49988246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_Waist
+      parentName: robot_0005:Root
+      position: {x: 6.024452, y: 23.237522, z: 0}
+      rotation: {x: 0.99999756, y: -0.002200984, z: -0.000095045274, w: 0.0001984631}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_Knee
+      parentName: robot_0005:R_Waist
+      position: {x: 60.67569, y: 0, z: 0}
+      rotation: {x: -0.0000000021392215, y: 0.00016200992, z: -0.0000009955448, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: robot_0005:R_ankle
+      parentName: robot_0005:R_Knee
+      position: {x: 84.914856, y: 0.0832587, z: 13.349395}
+      rotation: {x: 0.5040357, y: 0.50232613, z: -0.49757499, w: 0.49601975}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
