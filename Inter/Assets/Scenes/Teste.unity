@@ -1039,22 +1039,22 @@ Prefab:
     - target: {fileID: 224828144868464106, guid: ecf97e395b23db04783e0e8ed5e1f0ac,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224828144868464106, guid: ecf97e395b23db04783e0e8ed5e1f0ac,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224751033403330760, guid: ecf97e395b23db04783e0e8ed5e1f0ac,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224751033403330760, guid: ecf97e395b23db04783e0e8ed5e1f0ac,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224025935126991418, guid: ecf97e395b23db04783e0e8ed5e1f0ac,
         type: 2}
