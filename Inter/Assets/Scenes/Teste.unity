@@ -4320,6 +4320,11 @@ Prefab:
       propertyPath: seguePlayer
       value: 
       objectReference: {fileID: 1390121242}
+    - target: {fileID: 114546552719412666, guid: 107bf15d2def51349a7c2c7a0cbe7018,
+        type: 2}
+      propertyPath: reloadAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 7b98391be830d7f4da91c9b9cacfae94, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 107bf15d2def51349a7c2c7a0cbe7018, type: 2}
   m_IsPrefabAsset: 0

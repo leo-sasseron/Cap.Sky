@@ -33,6 +33,9 @@ public class metranca : MonoBehaviour
 
         tirosRestantes = tirosMaximos;
         audioMetralha = GetComponent<AudioSource>();
+
+        audioMetralha.clip = tiros;
+        audioMetralha.Pause();
     }
 
     // Update is called once per frame
@@ -49,15 +52,16 @@ public class metranca : MonoBehaviour
         
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && recarrega == false)
         {
 
            
 
-            atirando = true;
+            
             audioMetralha.clip = tiros;
             audioMetralha.loop = true;
             audioMetralha.Play();
+            atirando = true;
 
 
 
@@ -65,11 +69,12 @@ public class metranca : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space) && recarrega == false)
         {
 
 
 
+            //audioMetralha.clip = null;
             audioMetralha.Pause();
             atirando = false;
 
