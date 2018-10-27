@@ -77,7 +77,7 @@ public class VidaBot : MonoBehaviour {
 
         if (temOutroEStado)
         {
-            if (vidaAtual < vidaParaLigarSegEstado)
+            if (vidaAtual < vidaParaLigarSegEstado && temOutroEStado)
             {
                 estado1.SetActive(false);
                 estado2.SetActive(true);

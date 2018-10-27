@@ -137,7 +137,7 @@ public class metranca : MonoBehaviour
 
 
             Physics.Raycast(firePoint.transform.position, -firePoint.transform.forward,  out shot, range, layermask);
-        print(shot.collider.gameObject.name);
+      //  print(shot.collider.gameObject.name);
 
 
             //print(shot.collider.name);

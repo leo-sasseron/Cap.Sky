@@ -118,7 +118,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4983523754942074}
-  - component: {fileID: 65833684495852106}
   m_Layer: 31
   m_Name: bat_plane:R_wing
   m_TagString: naveMorcego
@@ -288,7 +287,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4905476921348494}
-  - component: {fileID: 65648481466163580}
   m_Layer: 31
   m_Name: bat_plane:L_wing
   m_TagString: naveMorcego
@@ -355,11 +353,10 @@ GameObject:
   - component: {fileID: 114610267175935422}
   - component: {fileID: 54989172203893944}
   - component: {fileID: 114687553069883728}
-  - component: {fileID: 136483362285638210}
-  - component: {fileID: 136453290477240240}
-  - component: {fileID: 136598838832463570}
   - component: {fileID: 137462714455281528}
   - component: {fileID: 135003524262426440}
+  - component: {fileID: 64243013775888086}
+  - component: {fileID: 114040894383217698}
   m_Layer: 31
   m_Name: bird_plane (1)
   m_TagString: naveMorcego
@@ -762,6 +759,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64243013775888086
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901029819379304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!65 &65491006929653498
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -774,30 +785,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 224.38507, y: 183.98474, z: 1008.3567}
   m_Center: {x: 27.65329, y: 11.515564, z: 528.1133}
---- !u!65 &65648481466163580
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1769718213925690}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 53.516937, y: 3.5, z: 8.66}
-  m_Center: {x: -24.858658, y: 0.0000074984155, z: 0}
---- !u!65 &65833684495852106
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1403991454385624}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 58.360687, y: 3.5, z: 8.66}
-  m_Center: {x: 27.28043, y: -0.000005697617, z: -2.1323852e-22}
 --- !u!95 &95406386134595688
 Animator:
   serializedVersion: 3
@@ -834,6 +821,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114040894383217698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901029819379304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bbc4c451fdcd241b2011b6e9695f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  morto: 0
+  anim: {fileID: 95646003533831210}
 --- !u!114 &114048410802584842
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -963,6 +963,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 450
+  vidaParaLigarSegEstado: 0
+  ObjetoADesligar: {fileID: 0}
+  estado1: {fileID: 0}
+  estado2: {fileID: 0}
+  temOutroEStado: 0
+  letal: 0
+  CCB: {fileID: 0}
   vidaAtual: 0
   debug: 1
 --- !u!114 &114672588633764202
@@ -1022,11 +1029,11 @@ MonoBehaviour:
   asaDireita: {fileID: 1155180969189198}
   render: {fileID: 137462714455281528}
   coliders:
-  - {fileID: 136598838832463570}
-  - {fileID: 136483362285638210}
-  - {fileID: 136453290477240240}
-  - {fileID: 65648481466163580}
-  - {fileID: 65833684495852106}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &114721263927015828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1190,45 +1197,6 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 3110.6
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &136453290477240240
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901029819379304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.5
-  m_Height: 36.6
-  m_Direction: 2
-  m_Center: {x: -14.97, y: 0, z: 0}
---- !u!136 &136483362285638210
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901029819379304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 3.5
-  m_Height: 35.91
-  m_Direction: 2
-  m_Center: {x: 15.05, y: 0, z: 0}
---- !u!136 &136598838832463570
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901029819379304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 6.9
-  m_Height: 47.27
-  m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &137462714455281528
 SkinnedMeshRenderer:
