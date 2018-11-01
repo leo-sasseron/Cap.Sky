@@ -25,7 +25,7 @@ public class RadarCamera : MonoBehaviour {
 	void Update () {
 
 		transform.position = Player.transform.position;
-		transform.rotation = Quaternion.Euler(0, Player.transform.rotation.eulerAngles.y, 0);
+		//transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, Player.transform.rotation.eulerAngles.z);
 
 		for (int i = 0; i < radarObjects.Count; i++) 
 		{
