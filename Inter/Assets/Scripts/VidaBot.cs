@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class VidaBot : MonoBehaviour {
 
-  
+    Collider coll;
 
     public float health, vidaParaLigarSegEstado;
     public GameObject ObjetoADesligar;
     public GameObject estado1, estado2;
-    public bool temOutroEStado, letal;
+    public bool temOutroEStado, letal, Tronco, soMorre, NdaPraMatar;
    public ControlaCoisasBot CCB;
-
     Rigidbody rb;
 
-    [HideInInspector]
+    
     public float vidaAtual;
 
    public bool debug;
@@ -22,6 +21,11 @@ public class VidaBot : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        
+        coll = GetComponent<Collider>();
+        rb = GetComponent<Rigidbody>();
+        rb.useGravity = true;
+
 
         if (temOutroEStado == false)
         {
@@ -33,6 +37,8 @@ public class VidaBot : MonoBehaviour {
             ObjetoADesligar = estado2;
 
                 }
+
+
         if (rb != null) { rb.GetComponent<Rigidbody>(); }
         
 
@@ -46,9 +52,39 @@ public class VidaBot : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+     
+       
+
+        if (temOutroEStado)
+        {
+            if (vidaAtual < vidaParaLigarSegEstado && temOutroEStado)
+            {
+                estado1.SetActive(false);
+                estado2.SetActive(true);
+
+
+            }
+
+
+        }
+
+
+
+        if (CCB.morto == true || soMorre)
+        {
+           
+            morto();
+          
+        }
+
+       
+
+
+      
+
         if (CCB.morto && rb != null)
         {
-            Debug.Log(this.rb.isKinematic);
+            
             this.rb.isKinematic = false;
 
         }
@@ -73,20 +109,13 @@ public class VidaBot : MonoBehaviour {
 
     public void takeDamage(float amount)
     {
+
+        if (NdaPraMatar == false) { 
         vidaAtual -= amount;
 
-        if (temOutroEStado)
-        {
-            if (vidaAtual < vidaParaLigarSegEstado && temOutroEStado)
-            {
-                estado1.SetActive(false);
-                estado2.SetActive(true);
+       
 
-
-            }
-
-
-        }
+        
 
 
         if (vidaAtual <= 0)
@@ -97,23 +126,47 @@ public class VidaBot : MonoBehaviour {
             morto();
 
         }
+        }
 
     }
-
+  
     void morto()
     {
+
+
+
+
         
+
+        transform.SetParent(null);
+
+
+
+        for ( int i = 0; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).SetParent(null);
+       
+            
+
+
+        }
+     
+
+       
 
         if (letal)
         {
-
+           
             CCB.morto = true;
-            if (rb != null) { rb.isKinematic = false; }
+            
             
         }
 
-        ObjetoADesligar.gameObject.SetActive(false);
-        this.gameObject.SetActive(false);
+        
+     
+        if (rb != null) { rb.isKinematic = false; }
 
+
+       
     }
 }
