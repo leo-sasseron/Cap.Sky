@@ -1,5 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Inter/Assets/Standard Assets/Cameras/CameraGuidelines.txt.meta
 guid: 86f4276d9602ff547968823666aa5699
+=======
+guid: dfd44d080af226a42a8718223c5979c6
+>>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt.meta
 TextScriptImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

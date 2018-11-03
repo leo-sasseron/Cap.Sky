@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Inter/Assets/SampleScenes/Shaders/Skybox-Procedural.shader.meta
 guid: 056e97cf96d14c840b829cc6f5e1310c
+=======
+guid: 7413ad7ef7e134244a4b83b20e5df0af
+>>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader.meta
 ShaderImporter:
+  externalObjects: {}
   defaultTextures: []
+  nonModifiableTextures: []
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

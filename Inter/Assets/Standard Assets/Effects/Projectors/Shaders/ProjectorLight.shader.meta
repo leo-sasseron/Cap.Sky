@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Inter/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader.meta
 guid: c0ace1ca4bc0718448acf798c93d52d9
+=======
+guid: 464fa40be16e2ed4bbabbb3e6f572077
+>>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader.meta
 ShaderImporter:
+  externalObjects: {}
   defaultTextures: []
+  nonModifiableTextures: []
   userData: 
   assetBundleName: 
+  assetBundleVariant: 
