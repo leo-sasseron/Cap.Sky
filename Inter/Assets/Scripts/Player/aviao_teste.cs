@@ -124,7 +124,7 @@ public class aviao_teste : MonoBehaviour
         //tag do objeto q é acertado pelo raio
 
         
-        tagHitray = ray.collider.tag;
+       // tagHitray = ray.collider.tag;
     }
 
     void OnDrawGizmos()

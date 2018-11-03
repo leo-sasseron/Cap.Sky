@@ -352,18 +352,18 @@ GameObject:
   - component: {fileID: 95646003533831210}
   - component: {fileID: 114610267175935422}
   - component: {fileID: 54989172203893944}
-  - component: {fileID: 114687553069883728}
   - component: {fileID: 137462714455281528}
   - component: {fileID: 135003524262426440}
-  - component: {fileID: 64243013775888086}
+  - component: {fileID: 114408622222414954}
   - component: {fileID: 114040894383217698}
+  - component: {fileID: 65687613011936198}
   m_Layer: 31
   m_Name: bird_plane (1)
   m_TagString: naveMorcego
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1976608202397478
 GameObject:
   m_ObjectHideFlags: 1
@@ -422,7 +422,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1667011828395940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3965, y: 1348, z: -7605}
+  m_LocalPosition: {x: 4385.7188, y: 997, z: -8790.232}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4084650547283532}
@@ -755,24 +755,10 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64243013775888086
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901029819379304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!65 &65491006929653498
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -785,6 +771,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 224.38507, y: 183.98474, z: 1008.3567}
   m_Center: {x: 27.65329, y: 11.515564, z: 528.1133}
+--- !u!65 &65687613011936198
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901029819379304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 78.870476, y: 8.624218, z: 30.689901}
+  m_Center: {x: 1.1487007, y: -1.2769299, z: -0.0012702942}
 --- !u!95 &95406386134595688
 Animator:
   serializedVersion: 3
@@ -833,6 +831,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   morto: 0
+  DesligaAnim: 0
+  desligaEssaCaceta: {fileID: 1667011828395940}
   anim: {fileID: 95646003533831210}
 --- !u!114 &114048410802584842
 MonoBehaviour:
@@ -928,6 +928,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c163cac1a24d01e49ac13504c7c11798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114408622222414954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1901029819379304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9eab5879ad6e044890ffcf55e3d459, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 137462714455281528}
+  player: {fileID: 0}
+  speed: 29000
+  rotateSpeed: 12
+  coliders:
+  - {fileID: 135003524262426440}
+  - {fileID: 65687613011936198}
 --- !u!114 &114427923602609438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -964,12 +982,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 450
   vidaParaLigarSegEstado: 0
-  ObjetoADesligar: {fileID: 0}
-  estado1: {fileID: 0}
-  estado2: {fileID: 0}
+  ObjetoADesligar: {fileID: 1901029819379304}
+  estado1: {fileID: 1901029819379304}
+  estado2: {fileID: 1901029819379304}
   temOutroEStado: 0
-  letal: 0
-  CCB: {fileID: 0}
+  letal: 1
+  Tronco: 0
+  soMorre: 0
+  NdaPraMatar: 0
+  CCB: {fileID: 114040894383217698}
   vidaAtual: 0
   debug: 1
 --- !u!114 &114672588633764202
@@ -1001,39 +1022,6 @@ MonoBehaviour:
   _minVar: {fileID: 0}
   _max: 15.1
   _maxVar: {fileID: 0}
---- !u!114 &114687553069883728
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1901029819379304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df4d93a876048a044b4e62433ac2bc24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotacaoOlhando: 5
-  fAddX: 90
-  fAddY: 90
-  fAddZ: 90
-  random: 0.2
-  velocidade: 15000
-  seguindo: 1
-  showGizmos: 0
-  "come\xE7oDistanciaRay": 500
-  distanciaRaycast: 500
-  distanciaRayFrente: 900
-  distanciaRayBaixo: 500
-  player: {fileID: 0}
-  asaEsquerda: {fileID: 1714336262454742}
-  asaDireita: {fileID: 1155180969189198}
-  render: {fileID: 137462714455281528}
-  coliders:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &114721263927015828
 MonoBehaviour:
   m_ObjectHideFlags: 1

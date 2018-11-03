@@ -34,3 +34,147 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Inter/Assets/Scenes/Builds.unity.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/Spark.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/Spark.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlare.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlare.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlameLickSheet.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFirecloud.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFireballSheet.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleCloudWhite.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/Hose.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/Hose.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/FireLight.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/FireLight.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/Explosive.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/Explosive.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Steam.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Steam.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Hose.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Flare.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt.meta
+Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt
+Inter/Assets/City_Builds/Textures/N_Build_9.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_9.png
+Inter/Assets/City_Builds/Textures/N_Build_8.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_8.png
+Inter/Assets/City_Builds/Textures/N_Build_7.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_7.png
+Inter/Assets/City_Builds/Textures/N_Build_6.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_6.png
+Inter/Assets/City_Builds/Textures/N_Build_5.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_5.png
+Inter/Assets/City_Builds/Textures/N_Build_4.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_4.png
+Inter/Assets/City_Builds/Textures/N_Build_3.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_3.png
+Inter/Assets/City_Builds/Textures/N_Build_2.png.meta
+Inter/Assets/City_Builds/Textures/N_Build_2.png
+Inter/Assets/City_Builds/Textures/N_Build.png.meta
+Inter/Assets/City_Builds/Textures/N_Build.png
+Inter/Assets/City_Builds/Textures/BC_Build_9.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_9.png
+Inter/Assets/City_Builds/Textures/BC_Build_8.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_8.png
+Inter/Assets/City_Builds/Textures/BC_Build_7.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_7.png
+Inter/Assets/City_Builds/Textures/BC_Build_6.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_6.png
+Inter/Assets/City_Builds/Textures/BC_Build_5.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_5.png
+Inter/Assets/City_Builds/Textures/BC_Build_4.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_4.png
+Inter/Assets/City_Builds/Textures/BC_Build_3.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_3.png
+Inter/Assets/City_Builds/Textures/BC_Build_2.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build_2.png
+Inter/Assets/City_Builds/Textures/BC_Build.png.meta
+Inter/Assets/City_Builds/Textures/BC_Build.png
+Inter/Assets/City_Builds/Textures.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_9.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_9.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_8.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_8.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_7.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_7.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_6.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_6.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_5.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_5.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_4.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_4.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_3.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_3.mat
+Inter/Assets/City_Builds/Materials/MAT_Build_2.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build_2.mat
+Inter/Assets/City_Builds/Materials/MAT_Build.mat.meta
+Inter/Assets/City_Builds/Materials/MAT_Build.mat
+Inter/Assets/City_Builds/Materials.meta
+Inter/Assets/City_Builds/Builds(1-9).fbx.meta
+Inter/Assets/City_Builds.meta

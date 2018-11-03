@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 136499412378248166}
   - component: {fileID: 137817156329836942}
   - component: {fileID: 135561343501739942}
+  - component: {fileID: 114674681814271670}
   m_Layer: 31
   m_Name: bird_plane (1)
   m_TagString: naveMorcego
@@ -509,7 +510,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1743168539307758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3981, y: 1348, z: -7034}
+  m_LocalPosition: {x: 3965, y: 1348, z: -8920}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4182429267720686}
@@ -1018,8 +1019,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 450
+  vidaParaLigarSegEstado: 0
+  ObjetoADesligar: {fileID: 1723366695895890}
+  estado1: {fileID: 0}
+  estado2: {fileID: 0}
+  temOutroEStado: 0
+  letal: 1
+  Tronco: 1
+  soMorre: 0
+  NdaPraMatar: 0
+  CCB: {fileID: 114674681814271670}
   vidaAtual: 0
   debug: 1
+--- !u!114 &114674681814271670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723366695895890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bbc4c451fdcd241b2011b6e9695f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  morto: 0
+  DesligaAnim: 0
+  desligaEssaCaceta: {fileID: 1723366695895890}
+  anim: {fileID: 95263158850042970}
 --- !u!114 &114722741315960842
 MonoBehaviour:
   m_ObjectHideFlags: 1

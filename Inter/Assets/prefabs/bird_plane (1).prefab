@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 136730341278465922}
   - component: {fileID: 137710846371089148}
   - component: {fileID: 135478276630950914}
+  - component: {fileID: 114045121869623844}
   m_Layer: 31
   m_Name: bird_plane (1)
   m_TagString: naveMorcego
@@ -467,6 +468,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114045121869623844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708392276100570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bbc4c451fdcd241b2011b6e9695f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  morto: 0
+  DesligaAnim: 0
+  desligaEssaCaceta: {fileID: 1202033584402850}
+  anim: {fileID: 95655474592269090}
 --- !u!114 &114169619701919836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -587,6 +603,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 450
+  vidaParaLigarSegEstado: 0
+  ObjetoADesligar: {fileID: 1708392276100570}
+  estado1: {fileID: 0}
+  estado2: {fileID: 0}
+  temOutroEStado: 0
+  letal: 1
+  Tronco: 0
+  soMorre: 0
+  NdaPraMatar: 0
+  CCB: {fileID: 114045121869623844}
   vidaAtual: 0
   debug: 1
 --- !u!114 &114805343540973018

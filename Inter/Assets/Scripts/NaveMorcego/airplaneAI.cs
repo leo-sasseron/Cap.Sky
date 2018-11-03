@@ -22,13 +22,15 @@ public class airplaneAI : MonoBehaviour
     public bool seguindo, showGizmos;
     public float começoDistanciaRay, distanciaRaycast, distanciaRayFrente, distanciaRayBaixo;
 
-    public Transform player;
+    public GameObject player;
     public GameObject asaEsquerda, asaDireita;
 
     public Renderer render;
     // Use this for initialization
     void Start()
     {
+
+        player = GameObject.FindGameObjectWithTag("Player");
         distanciaRaycast = começoDistanciaRay;
         rb = GetComponent<Rigidbody>();
         render = GetComponent<Renderer>();
@@ -64,7 +66,7 @@ public class airplaneAI : MonoBehaviour
 
         if (FrenteRayHit == false && seguindo == true)
         {
-            Vector3 seguePlayer = player.position - this.transform.position;
+            Vector3 seguePlayer = player.transform.position - this.transform.position;
 
             seguePlayer.Normalize();
 
