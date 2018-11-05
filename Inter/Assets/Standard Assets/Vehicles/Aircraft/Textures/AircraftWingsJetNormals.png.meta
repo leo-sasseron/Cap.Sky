@@ -1,23 +1,14 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
 guid: f7c27487b4792e640b8816a7e0e2f5dd
-=======
-guid: f7b1f92427bcce543841806cb1d3a6d8
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 6
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-    linearTexture: 1
-    correctGamma: 0
-=======
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
     fadeOut: 0
     borderMipMap: 0
     mipMapsPreserveCoverage: 0
@@ -26,13 +17,8 @@ TextureImporter:
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-    externalNormalMap: 1
-    heightScale: .25
-=======
     externalNormalMap: 0
     heightScale: 0.25
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
     normalMapFilter: 0
   isReadable: 0
   streamingMipmaps: 0
@@ -41,22 +27,16 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 4096
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-    aniso: 4
-    mipBias: -1
-    wrapMode: -1
-=======
     aniso: -1
     mipBias: -100
     wrapU: -1
     wrapV: -1
     wrapW: -1
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
@@ -70,14 +50,8 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-  textureType: 1
-  buildTargetSettings:
-  - buildTarget: iPhone
-    maxTextureSize: 4096
-=======
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -86,7 +60,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -94,66 +68,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 512
-    resizeAlgorithm: 0
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-  - buildTarget: Android
-    maxTextureSize: 4096
-=======
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 512
-    resizeAlgorithm: 0
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-  - buildTarget: BlackBerry
-    maxTextureSize: 4096
-=======
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: BlackBerry
-    maxTextureSize: 512
-    resizeAlgorithm: 0
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-<<<<<<< HEAD:Inter/Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png.meta
-  - buildTarget: WP8
-    maxTextureSize: 4096
-=======
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WP8
-    maxTextureSize: 512
-    resizeAlgorithm: 0
->>>>>>> 1184cca8c7c76bd024d481f97da2412808f478ec:Inter/Assets/Particulas etc/Materials/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png.meta
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
@@ -167,6 +81,8 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

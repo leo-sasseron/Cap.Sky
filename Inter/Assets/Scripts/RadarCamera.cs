@@ -31,6 +31,7 @@ public class RadarCamera : MonoBehaviour {
 		{
 			if (Vector3.Distance (radarObjects [i].transform.position, transform.position) > switchDistance) 
 			{
+				Debug.Log ("Border");
 				helpTransform.LookAt (radarObjects[i].transform);
 				borderObjects [i].transform.position = transform.position + switchDistance * helpTransform.forward;
 				borderObjects [i].layer = LayerMask.NameToLayer ("Radar");
@@ -38,6 +39,7 @@ public class RadarCamera : MonoBehaviour {
 			} 
 			else 
 			{
+				Debug.Log ("Radar");
 				borderObjects [i].layer = LayerMask.NameToLayer ("Invisible");
 				radarObjects [i].layer = LayerMask.NameToLayer ("Radar");
 			}
@@ -55,7 +57,7 @@ public class RadarCamera : MonoBehaviour {
 			GameObject k = Instantiate (radarPrefab, o.transform.position, Quaternion.identity) as GameObject;
 			radarObjects.Add (k);
 			GameObject j = Instantiate (radarPrefab, o.transform.position, Quaternion.identity) as GameObject;
-			radarObjects.Add (j);
+			borderObjects.Add (j);
 		}
 		
 	}
